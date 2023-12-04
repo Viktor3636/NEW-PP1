@@ -1,14 +1,16 @@
 body {
     height: 200vh;
+    background-color: #f6d8ac;
 }
 
 nav {
     position: fixed;
-    background-color: black;
+    background-color: #f6d8ac;
     top: 0px;
     left: 0px;
     height: 50px;
     width: 100%;
+    z-index: 99;
 }
 
 #menu-links {
@@ -22,7 +24,7 @@ nav {
 
 #menu-links > a {
     position: relative;
-    color: white;
+    color: #7e9a9a;
     text-transform: uppercase;
     padding: 5px;
     text-decoration: none;
@@ -30,13 +32,35 @@ nav {
 }
 
 #border {
-    border: 1px solid white;
+    border: 1px solid #7e9a9a;
 }
 
 #header-photo {
-    background: url(/assets/images/pexels-kindel-media-7651709.jpg) no-repeat center;
+    background: url(/assets/images/pexels-tranmautritam-326503.jpg) no-repeat;
     padding: 40px;
     width: 100%;
     height: 350px;
     background-size: cover;
+
+
+}
+
+#information-blocks {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: url(/assets/images/pexels-format-1029757.jpg) no-repeat;
+    background-position: ;
+    background-size: cover;
+    object-fit: cover;
+}
+
+#information {
+    width: 25%;
+    padding: 15px;
+    border: 1px solid #7e9a9a;
+    border-radius: 10px;
+    color: #7e9a9a;
+    background-color: #f6d8ac;
+    opacity: 0.98;
 }
