@@ -1,0 +1,30 @@
+nav {
+    position: fixed;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+}
+
+#menu-links {
+    position: relative;
+    font-size: 120%;
+    margin-top: 20px;
+    padding: 10px;
+    margin-block-start: auto;
+    text-align: center;
+}
+
+#menu-links > a {
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    padding: 5px;
+    text-decoration: none;
+    justify-content: center;
+}
+
+#border {
+    border: 1px solid white;
+}
