@@ -1,52 +1,113 @@
-body {
-    height: 200vh;
-    background-color: #f6d8ac;
+* {
     margin: 0;
+    padding: 0;
 }
+
+body {
+    background-color: #7e9a9a;
+    min-height: 100vh;
+    }
 
 nav {
-    position: fixed;
-    background-color: #f6d8ac;
-    top: 0px;
-    left: 0px;
-    height: 75px;
-    width: 100%;
-    z-index: 99;
+    background-color: #7e9a9a;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
-#menu-links {
-    position: relative;
-    font-size: 150%;
-    padding: 15px;
-    margin-block-start: auto;
-    text-align: center;
+nav ul {
+      width: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
 }
 
-#menu-links > a {
-    position: relative;
-    color: #7e9a9a;
-    padding: 5px;
-    text-transform: uppercase;
+nav li {
+    height: 50px;
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
     text-decoration: none;
-    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: lightgrey;
+
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #7e9a9a;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    opacity: 0.95;
+    text-transform: uppercase;
+}
+
+.sidebar li {
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+}
+
+.menu-button{
+    display: none;
 }
 
 
 #information-blocks {
     display: flex;
+    height: 600px;
     padding: 150px;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background: url(/assets/images/pexels-format-1029757.jpg) no-repeat;
     background-size: cover;
+    align-items: center;
 }
 
 #information {
     width: 25%;
+    height: fit-content;
     padding: 15px;
     border: 1px solid #7e9a9a;
     border-radius: 10px;
-    color: #7e9a9a;
-    background-color: white;
+    color: black;
+    background-color: #7e9a9a;
     opacity: 0.98;
     text-align: center;
+}
+
+@media(max-width: 800px){
+    .hideOnMobile{
+        display: none;
+    }
+
+    .menu-button{
+        display: block;
+    }
+}
+
+@media(max-width: 400px){
+    .sidebar {
+        width: 100%;
+    }
 }

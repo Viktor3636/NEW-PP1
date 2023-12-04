@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COWORKING</title>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="https://kit.fontawesome.com/ec9a388b78.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -15,22 +16,21 @@
     <!--      NAVIGATION MENU      -->
 
         <nav>
-            <div id="menu-links">
-                <a id="border" href="">Home</a>
-                <a id="border" href="">About Us</a>
-                <a id="border" href="">Membership</a>
-
-            </div>
-         </nav>
-
-         <!--     PHOTO FOR HEADER     -->
-
-         <div id="header-photo">
-
-         </div>
-
-
-    </header>
+          <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href=""><i class="fa-solid fa-x"></i></a></li>
+            <li><a href="">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Membership</a></li>
+          </ul>
+          <ul>
+            <li><a href="">Work Together</a></li>
+            <li class="hideOnMobile"><a href="">Home</a></li>
+            <li class="hideOnMobile"><a href="">About Us</a></li>
+            <li class="hideOnMobile"><a href="">Membership</a></li>
+            <li class="menu-button" onclick="showSidebar(event)"><a href=""><i class="fa-solid fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </header>
 
     <!--     MAIN  CONTENT      -->
 
@@ -67,6 +67,31 @@
 
 
     </main>
+
+    <footer>
+        <p></p>
+    </footer>
+
+
+    <script>
+            function showSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+ 
+            function hideSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+            }
+
+            function showSidebar(event) {
+    const sidebar = document.querySelector('.sidebar');
+    sidebar.style.display = 'flex';
+    event.preventDefault();
+}
+
+
+         </script>
     
 </body>
 </html>
