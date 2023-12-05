@@ -268,7 +268,7 @@ background-color: white;
     display: flex;
     flex-direction: column;
     padding-top: 50px;
-    border: 1px solid white;
+    border: 3px solid black;
     text-align: center;
     background-color: #7e9a9a;
     opacity: 0.9;
@@ -283,24 +283,28 @@ background-color: white;
 height: 30px;
 text-align: center;
 border-radius: 15px;
+border: 3px solid black;
 }
 
 #lname{
     height: 30px;
     text-align: center;
     border-radius: 15px;
+    border: 3px solid black;
 }
 
 #email{
     height: 30px;
     text-align: center;
     border-radius: 15px;
+    border: 3px solid black;
 }
 
 #select{
     height: 30px;
     text-align: center;
     border-radius: 15px;
+    border: 3px solid black;
 }
 
 #submit{
@@ -310,6 +314,7 @@ border-radius: 15px;
     font-weight: bold;
     border-radius: 15px;
     background-color: bisque;
+    border: 3px solid black;
 }
 
 
