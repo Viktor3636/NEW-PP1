@@ -12,6 +12,7 @@
 body {
     background-color: #7e9a9a;
     min-height: 100vh;
+    width: 100%;
     }
 
 
@@ -88,24 +89,29 @@ nav li:first-child{
 
 #information-blocks {
     display: flex;
-    height: 600px;
+    flex-direction:column;
     padding: 150px;
-    justify-content: space-evenly;
     background: url(/assets/images/pexels-format-1029757.jpg) no-repeat;
     background-size: cover;
+    background-position: center center;
     align-items: center;
 }
 
 #information {
-    width: 25%;
-    height: fit-content;
-    padding: 15px;
+    justify-content: space-evenly;
     border: 1px solid #7e9a9a;
     border-radius: 10px;
     color: black;
     background-color: #7e9a9a;
-    opacity: 0.98;
+    width: 90vw;
     text-align: center;
+    margin: 30px;
+}
+
+#information > p {
+    letter-spacing: 1px;
+    font-size: 140%;
+    padding: 20px;
 }
 
 footer {
@@ -130,6 +136,9 @@ footer > p{
 /*         MEDIA QUERYS        */
 
 
+
+/*  MAX 800 PX  */
+
 @media(max-width: 800px){
     .hideOnMobile{
         display: none;
@@ -138,8 +147,10 @@ footer > p{
     .menu-button{
         display: block;
     }
+
 }
 
+/*   MAX 400 PX   */
 @media(max-width: 400px){
     .sidebar {
         width: 100%;
