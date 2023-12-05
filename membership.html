@@ -34,17 +34,11 @@
 
     <!--     MAIN  CONTENT      -->
 
-    <main>
+    <main id="background">
+<div>
 
-      <form method="POST" action="https://formdump.codeinstitute.net/">
-             <br>
-             <br>
-             <br>
-             <br>
-             <br>
-             <br>
-             <br>
-             <br>
+      <form id="form" method="POST" action="https://formdump.codeinstitute.net/">
+             
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="fname" placeholder="Your First Name" required>
         <br>
@@ -55,10 +49,24 @@
 
         <label for="email">Email Name</label>
         <input type="email" id="email" name="email" placeholder="Your Email Adress" required>
+        <br>
+
+        <label for="select">Choose your plan</label>
+        <select name="select" id="select" required>
+        <option value="choose-your-plan">Choose the best option for you in the dropdown menu</option>
+        <option value="just_office_space">Just office space 9.99 Euro / Month</option>
+        <option value="office-space-computer">Office space with computer 19.99 Euro / Month</option>
+      </select>
+        <br>
+
+        <label for="submit"></label>
+        <input type="submit" name="submit" id="submit" value="Let's Cowork!">
+
 
 
 
       </form>
+</div>
 
 
 

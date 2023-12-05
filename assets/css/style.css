@@ -238,6 +238,31 @@ background-color: white;
     
 }
 
+/*    MEMBERSHIP PAGE  */
+
+/* FORM  */
+
+#background{
+    background: url(/assets/images/pexels-fauxels-3184306.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: auto;
+    height: 100vh;
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+    border: 1px solid white;
+    width: auto;
+}
+
+
+
+
 
 
 /*         MEDIA QUERYS        */
