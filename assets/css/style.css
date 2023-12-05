@@ -282,21 +282,25 @@ background-color: white;
 #fname{
 height: 30px;
 text-align: center;
+border-radius: 15px;
 }
 
 #lname{
     height: 30px;
     text-align: center;
+    border-radius: 15px;
 }
 
 #email{
     height: 30px;
     text-align: center;
+    border-radius: 15px;
 }
 
 #select{
     height: 30px;
     text-align: center;
+    border-radius: 15px;
 }
 
 #submit{
@@ -304,6 +308,8 @@ text-align: center;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
+    border-radius: 15px;
+    background-color: bisque;
 }
 
 
