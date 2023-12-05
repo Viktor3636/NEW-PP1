@@ -142,8 +142,8 @@ footer > p{
 
 /*  ABOUT US PAGE    */
 
-main {
-padding-top: 50px;
+#about-page {
+padding-top: 60px;
 background: url(/assets/images/pexels-cowomen-2041627.jpg) no-repeat;
 background-size: cover;
 position: center center;
@@ -154,57 +154,87 @@ background-color: white;
 
 .text-sections{
     text-align: center;
-    width: auto;
-    background-color: white;
-    opacity: 0.8;
+    width: 100vw;
+    font-size: 110%;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+
+ 
+
+/* CHILD DIV FOR MAIN ABOUT US PAGE  */
+
+#about-page > h3{
+    width: 80%;
+    margin-left: 10%;
+    font-size: 150%;
+    letter-spacing: 3px;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 15px;
+    background-color: #7e9a9a;
+    opacity: 0.9;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.section-1{
+    width: 50%;
+    border: 5px solid white;
+    border-radius: 15px;
+    opacity: 0.9;
+    background-color: #7e9a9a;
+    margin-left: auto;
     
 }
 
-/* CHILD DIV FOR MAIN  */
-
-.section-1{
-    width: 40%;
-    border: 2px solid #7e9a9a;
-    margin-left: 0px;
-    border-radius: 15px;
-}
-
 .section-2{
-    width: 40%;
-    border: 2px solid #7e9a9a;
+    width: 50%;
+    border: 5px solid white;
     margin-right: auto;
     border-radius: 15px;
+    background-color: #7e9a9a;
+    opacity: 0.9;
 }
 
 .section-3{
-    width: 40%;
-    border: 2px solid #7e9a9a;
-    margin-left: 0px;
+    width: 50%;
+    border: 5px solid white;
+    margin-left: auto;
     border-radius: 15px;
+    background-color: #7e9a9a;
+    opacity: 0.9;
     
 }
 
 .section-4{
-    width: 40%;
-    border: 2px solid #7e9a9a;
+    width: 50%;
+    border: 5px solid white;
     margin-left: 0px;
     border-radius: 15px;
+    background-color: #7e9a9a;
+    opacity: 0.9;
     
 }
 
 .section-5{
-    width: 40%;
-    border: 2px solid #7e9a9a;
-    margin-left: 0px;
+    width: 50%;
+    border: 5px solid white;
+    margin-left: auto;
     border-radius: 15px;
+    background-color: #7e9a9a;
+    opacity: 0.9;
     
 }
 
 .section-6{
-    width: 40%;
-    border: 2px solid #7e9a9a;
+    width: 50%;
+    border: 5px solid white;
     margin-left: 0px;
     border-radius: 15px;
+    background-color: #7e9a9a;
+    opacity: 0.9;
     
 }
 
