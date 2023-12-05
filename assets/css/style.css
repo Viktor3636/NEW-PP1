@@ -27,6 +27,7 @@ nav {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
     position: fixed;
     width: 100%;
+    z-index: 99999;
 }
 
 nav ul {
@@ -138,6 +139,75 @@ footer > p{
     font-size: 20px;
     
 }
+
+/*  ABOUT US PAGE    */
+
+main {
+padding-top: 50px;
+background: url(/assets/images/pexels-cowomen-2041627.jpg) no-repeat;
+background-size: cover;
+position: center center;
+width: auto;
+height: auto;
+background-color: white;
+}
+
+.text-sections{
+    text-align: center;
+    width: auto;
+    background-color: white;
+    opacity: 0.8;
+    
+}
+
+/* CHILD DIV FOR MAIN  */
+
+.section-1{
+    width: 40%;
+    border: 2px solid #7e9a9a;
+    margin-left: 0px;
+    border-radius: 15px;
+}
+
+.section-2{
+    width: 40%;
+    border: 2px solid #7e9a9a;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+.section-3{
+    width: 40%;
+    border: 2px solid #7e9a9a;
+    margin-left: 0px;
+    border-radius: 15px;
+    
+}
+
+.section-4{
+    width: 40%;
+    border: 2px solid #7e9a9a;
+    margin-left: 0px;
+    border-radius: 15px;
+    
+}
+
+.section-5{
+    width: 40%;
+    border: 2px solid #7e9a9a;
+    margin-left: 0px;
+    border-radius: 15px;
+    
+}
+
+.section-6{
+    width: 40%;
+    border: 2px solid #7e9a9a;
+    margin-left: 0px;
+    border-radius: 15px;
+    
+}
+
 
 
 /*         MEDIA QUERYS        */
