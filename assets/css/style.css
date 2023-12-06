@@ -129,6 +129,8 @@ nav li:first-child{
     padding: 20px;
 }
 
+/*        FOOTER       */
+
 footer {
     width: 100%;
     background-color: #7e9a9a;
@@ -140,12 +142,14 @@ footer {
 footer > p{
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content:center;
+    flex-direction: row;
     color: black;
     font-weight: medium;
     font-size: 20px;
-    
-}
+    }
+
+
 
 /*  ABOUT US PAGE    */
 
