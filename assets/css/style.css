@@ -145,7 +145,7 @@ footer > p{
     justify-content:center;
     flex-direction: row;
     color: black;
-    font-weight: medium;
+    font-weight: 400;
     font-size: 20px;
     }
 
@@ -157,7 +157,6 @@ footer > p{
 padding-top: 60px;
 background: url(/assets/images/pexels-cowomen-2041627.jpg) no-repeat;
 background-size: cover;
-position: center center;
 width: auto;
 height: auto;
 background-color: white;
