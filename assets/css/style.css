@@ -110,10 +110,12 @@ nav li:first-child{
     background-size: cover;
     background-position: center center;
     align-items: center;
+    height: 100vh;
 }
 
-#information {
+.information {
     justify-content: space-evenly;
+    padding: 10px;
     border: 1px solid #7e9a9a;
     border-radius: 10px;
     color: black;
