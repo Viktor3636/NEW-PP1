@@ -154,40 +154,6 @@ nav li:first-child{
 }
 
 
-
-/*        FOOTER       */
-
-footer {
-    width: 100%;
-    background-color: black;
-    bottom: 0px;
-}
-
-.position-footer{
-    flex-direction: row;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
-.opening-times{
-    color: white;
-    letter-spacing: 3px;
-}
-
-.opening-times > ul{
-    list-style-type: none;
-}
-
-.address{
-    color: white;
-    letter-spacing: 3px;
-}
-
-
-
-
-
 /*  ABOUT US PAGE    */
 
 #about-page {
@@ -363,6 +329,36 @@ border: 3px solid black;
 }
 
 
+/*        FOOTER       */
+
+footer {
+    width: 100%;
+    background-color: black;
+    bottom: 0px;
+}
+
+.position-footer{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.opening-times{
+    color: white;
+    letter-spacing: 3px;
+    padding-bottom: 5px;
+}
+
+.opening-times > ul{
+    list-style-type: none;
+}
+
+.address{
+    color: white;
+    letter-spacing: 3px;
+}
+
 
 
 
@@ -384,6 +380,15 @@ border: 3px solid black;
 
     .information{
         width: 100%;
+    }
+
+    .position-footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .address{
+       margin-top: 30px;
     }
 
 }
