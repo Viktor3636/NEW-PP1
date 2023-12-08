@@ -106,7 +106,7 @@ nav li:first-child{
     display: flex;
     flex-direction:column;
     padding: 150px;
-    background: url(/assets/images/pexels-format-1029757.jpg) no-repeat;
+    background: url(NEW-PP1/assets/images/pexels-format-1029757.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     align-items: center;
@@ -158,7 +158,7 @@ nav li:first-child{
 
 #about-page {
 padding-top: 60px;
-background: url(/assets/images/pexels-cowomen-2041627.jpg) no-repeat;
+background: url(NEW-PP1/assets/images/pexels-cowomen-2041627.jpg) no-repeat;
 background-size: cover;
 width: auto;
 height: 93vh;
@@ -220,7 +220,7 @@ main > h2{
 /* FORM & MEMBERSHIP PAGE  */
 
 #background{
-    background: url(/assets/images/pexels-fauxels-3184306.jpg) no-repeat;
+    background: url(NEW-PP1/assets/images/pexels-fauxels-3184306.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     width: auto;
