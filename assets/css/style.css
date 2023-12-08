@@ -99,7 +99,7 @@ nav li:first-child{
     display: none;
 }
 
-/*           MAIN STRUCTURE      */
+/*           HEADER      */
 
 
 #information-blocks {
@@ -113,25 +113,53 @@ nav li:first-child{
     height: 65vh;
 }
 
-.information {
-    padding: 100px;
-    color: black;
-    text-align: center;
+#information-blocks > h2{
+    color: white;
+    background-color: black;
+    margin-top: 130px;
+    font-size: 150%;
+    width: auto;
+    padding: 2px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    height: auto;
+}
+
+/*     MAIN SECTION     */
+
+#home-main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
     align-items: center;
+    border: 1px solid black;
     justify-content: center;
 }
 
-#information > p {
-    letter-spacing: 1px;
-    font-size: 140%;
+.information{
+    text-align: center;
     padding: 20px;
+    margin-bottom: 20px;
+    width: 50%;
 }
+
+.information > h2{
+    text-decoration: underline;
+}
+
+.information > p{
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+
 
 /*        FOOTER       */
 
 footer {
     width: 100%;
-    background-color: darkolivegreen;
+    background-color: black;
     bottom: 0px;
 }
 
@@ -352,6 +380,10 @@ border: 3px solid black;
 
     .menu-button{
         display: block;
+    }
+
+    .information{
+        width: 100%;
     }
 
 }
