@@ -161,8 +161,22 @@ padding-top: 60px;
 background: url(/assets/images/pexels-cowomen-2041627.jpg) no-repeat;
 background-size: cover;
 width: auto;
-height: auto;
-background-color: white;
+height: 93vh;
+background-color: black;
+}
+
+#about-page > h1{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    margin-top: 500px;
+    font-size: 500%;
+    color: white;
+}
+
+main > h3{
+    
 }
 
 .text-sections{
@@ -180,85 +194,10 @@ background-color: white;
 
 /* CHILD DIV FOR MAIN ABOUT US PAGE  */
 
-#about-page > h3{
-    width: 80%;
-    margin-left: 10%;
-    font-size: 150%;
-    letter-spacing: 3px;
-    height: auto;
-    border: 5px solid white;
-    border-radius: 15px;
-    background-color: #7e9a9a;
-    opacity: 0.9;
-    margin-bottom: 50px;
-    text-align: center;
 
-}
 
-.section-1{
-    width: 50%;
-    border: 5px solid white;
-    border-radius: 15px;
-    opacity: 0.9;
-    background-color: #7e9a9a;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    
-}
 
-.section-2{
-    width: 50%;
-    border: 5px solid white;
-    border-radius: 15px;
-    background-color: #7e9a9a;
-    opacity: 0.9;
-    margin: 10px;
-}
-
-.section-3{
-    width: 50%;
-    border: 5px solid white;
-    border-radius: 15px;
-    background-color: #7e9a9a;
-    opacity: 0.9;
-    margin: 10px;
-    
-}
-
-.section-4{
-    width: 50%;
-    border: 5px solid white;
-    border-radius: 15px;
-    background-color: #7e9a9a;
-    opacity: 0.9;
-    margin: 10px;
-    
-}
-
-.section-5{
-    width: 50%;
-    border: 5px solid white;
-    border-radius: 15px;
-    background-color: #7e9a9a;
-    opacity: 0.9;
-    margin: 10px;
-    
-}
-
-.section-6{
-    width: 50%;
-    border: 5px solid white;
-    border-radius: 15px;
-    background-color: #7e9a9a;
-    opacity: 0.9;
-    margin: 10px;
-    
-}
-
-/*    MEMBERSHIP PAGE  */
-
-/* FORM  */
+/* FORM & MEMBERSHIP PAGE  */
 
 #background{
     background: url(/assets/images/pexels-fauxels-3184306.jpg) no-repeat;
