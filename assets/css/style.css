@@ -110,19 +110,15 @@ nav li:first-child{
     background-size: cover;
     background-position: center center;
     align-items: center;
-    height: 100vh;
+    height: 65vh;
 }
 
 .information {
-    justify-content: space-evenly;
-    padding: 10px;
-    border: 1px solid #7e9a9a;
-    border-radius: 10px;
+    padding: 100px;
     color: black;
-    background-color: #7e9a9a;
-    width: 90vw;
     text-align: center;
-    margin: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 #information > p {
@@ -135,21 +131,32 @@ nav li:first-child{
 
 footer {
     width: 100%;
-    background-color: #7e9a9a;
-    position: fixed;
+    background-color: darkolivegreen;
     bottom: 0px;
-
 }
 
-footer > p{
-    display: flex;
-    text-align: center;
-    justify-content:center;
+.position-footer{
     flex-direction: row;
-    color: black;
-    font-weight: 400;
-    font-size: 20px;
-    }
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.opening-times{
+    color: white;
+    letter-spacing: 3px;
+}
+
+.opening-times > ul{
+    list-style-type: none;
+}
+
+.address{
+    color: white;
+    letter-spacing: 3px;
+}
+
+
 
 
 
