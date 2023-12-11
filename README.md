@@ -38,5 +38,8 @@ Contact us
 
 ## Communication
 
+For communication ive focused on a simple website with light colours to give a clean experience, i choose to have a picture on every page with text that gives more experience for the user what coworking is and finish with a sign up form where you can start the subscription.
 
+
+# Design
 
