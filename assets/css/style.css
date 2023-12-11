@@ -131,7 +131,7 @@ nav li:first-child{
 #home-main{
     display: flex;
     flex-direction: column;
-    background-color: #FFFFEA;
+    background-color: #7e9a9a;
     align-items: center;
     border: 1px solid black;
     justify-content: center;
@@ -178,7 +178,7 @@ background-color: black;
 }
 
 .background-about{
-    background-color: #FFFFEA;
+    background-color: #7e9a9a;
     padding-top: 0;
 }
 

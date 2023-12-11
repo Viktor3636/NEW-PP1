@@ -43,3 +43,7 @@ For communication ive focused on a simple website with light colours to give a c
 
 # Design
 
+### Colour Palette
+
+
+
