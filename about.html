@@ -1,176 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COWORKING</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <script src="https://kit.fontawesome.com/ec9a388b78.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>COWORKING</title>
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <script src="https://kit.fontawesome.com/ec9a388b78.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--          HEADER           -->
 
-    <!--          HEADER           -->
+        <header>
+            <!--      NAVIGATION MENU      -->
 
-    <header>
+            <nav>
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()">
+                        <a href=""><i class="fa-solid fa-x"></i></a>
+                    </li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                </ul>
+                <ul>
+                    <li id="logo"><a href="index.html">COWORKING</a></li>
+                    <li class="hideOnMobile"><a href="index.html">Home</a></li>
+                    <li class="hideOnMobile"><a href="about.html">About Us</a></li>
+                    <li class="hideOnMobile"><a href="membership.html">Membership</a></li>
+                    <li class="menu-button" onclick="showSidebar(event)">
+                        <a href=""><i class="fa-solid fa-bars"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
 
-    <!--      NAVIGATION MENU      -->
+        <!--     MAIN  CONTENT      -->
 
-        <nav>
-          <ul class="sidebar">
-            <li onclick="hideSidebar()"><a href=""><i class="fa-solid fa-x"></i></a></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="membership.html">Membership</a></li>
-          </ul>
-          <ul>
-            <li id="logo"><a href="index.html">COWORKING</a></li>
-            <li class="hideOnMobile"><a href="index.html">Home</a></li>
-            <li class="hideOnMobile"><a href="about.html">About Us</a></li>
-            <li class="hideOnMobile"><a href="membership.html">Membership</a></li>
-            <li class="menu-button" onclick="showSidebar(event)"><a href=""><i class="fa-solid fa-bars"></i></a></li>
-          </ul>
-        </nav>
-
-      </header>
-
-
-<!--     MAIN  CONTENT      -->
-
-   <div id="about-page">
-      <h1>learn more about us</h1>
- </div>
-
-    <main class="background-about">
-
-
-      <div class="text-sections">
-
-          <div class="information">
-            <h2>Our Story</h2>
-            <br>
-            <p>Founded with a vision to redefine the traditional workspace, COWORKING emerged as a response to the changing landscape of work. 
-              We recognized the growing demand for flexible and collaborative spaces that promote productivity and community engagement.
-               Our journey began with the belief that a well-designed coworking space could be more than just a place to work, it could be a catalyst for innovation and growth.
-              </p>
-
-          </div>
-
-          <div class="information">
-            <h2>Our Space</h2>
-            <br>
-            <p>Step into our meticulously designed workspace, where modern aesthetics meet functionality. 
-              Whether you're a freelancer, a startup, or an established business, our thoughtfully curated environments cater to diverse needs. 
-              From private offices to open workspaces, our flexible layouts adapt to your workflow, ensuring a seamless and productive work experience.
-            </p>
-
-          </div>
-
-          <div class="information">
-            <h2>Community Matters</h2>
-            <br>
-            <p>At COWORKING, we understand the power of community.
-               Our vibrant ecosystem brings together professionals from various industries, fostering collaboration and networking opportunities.
-                Engage in knowledge-sharing sessions, attend networking events, or simply connect with like-minded individuals who share your passion for success.
-                 The sense of community at COWORKING extends beyond the workspace, it's a support system that propels you towards your goals.
-                </p>
-
-          </div>
-
-          <div class="information">
-            <h2>Amenities and Services</h2>
-            <br>
-            <p>Enjoy a host of amenities designed to enhance your workday. 
-              High-speed internet, state-of-the-art meeting rooms, and fully equipped communal spaces are just the beginning. 
-              Our dedicated team is committed to providing unparalleled support, ensuring that you can focus on what matters most, your work.
-            </p>
-
-          </div>
-
-          <div class="information">
-            <h2>Flexibility Redefined</h2>
-            <br>
-            <p>We understand that the modern work landscape is dynamic.
-               That's why we offer flexible membership plans that cater to your unique requirements.
-                Whether you need a dedicated workspace, a meeting room for a day, or a virtual office, we have the perfect solution for you.
-              </p>
-
-          </div>
-
-          <div class="information">
-            <h2>Join Us</h2>
-            <br>
-            <p>Embark on a journey of innovation and collaboration with COWORKING. 
-              Discover a workspace that transcends the conventional and propels you towards success. 
-              Join our community and experience the future of work, where every day is an opportunity to thrive.
-            </p>
-          </div>
-
-    
+        <div id="about-page">
+            <h1>learn more about us</h1>
         </div>
 
+        <main class="background-about">
+            <div class="text-sections">
+                <div class="information">
+                    <h2>Our Story</h2>
+                    <br />
+                    <p>
+                        Founded with a vision to redefine the traditional workspace, COWORKING emerged as a response to the changing landscape of work. We recognized the growing demand for flexible and collaborative spaces that promote
+                        productivity and community engagement. Our journey began with the belief that a well-designed coworking space could be more than just a place to work, it could be a catalyst for innovation and growth.
+                    </p>
+                </div>
 
- 
+                <div class="information">
+                    <h2>Our Space</h2>
+                    <br />
+                    <p>
+                        Step into our meticulously designed workspace, where modern aesthetics meet functionality. Whether you're a freelancer, a startup, or an established business, our thoughtfully curated environments cater to diverse
+                        needs. From private offices to open workspaces, our flexible layouts adapt to your workflow, ensuring a seamless and productive work experience.
+                    </p>
+                </div>
 
-    </main>
+                <div class="information">
+                    <h2>Community Matters</h2>
+                    <br />
+                    <p>
+                        At COWORKING, we understand the power of community. Our vibrant ecosystem brings together professionals from various industries, fostering collaboration and networking opportunities. Engage in knowledge-sharing
+                        sessions, attend networking events, or simply connect with like-minded individuals who share your passion for success. The sense of community at COWORKING extends beyond the workspace, it's a support system that
+                        propels you towards your goals.
+                    </p>
+                </div>
 
+                <div class="information">
+                    <h2>Amenities and Services</h2>
+                    <br />
+                    <p>
+                        Enjoy a host of amenities designed to enhance your workday. High-speed internet, state-of-the-art meeting rooms, and fully equipped communal spaces are just the beginning. Our dedicated team is committed to providing
+                        unparalleled support, ensuring that you can focus on what matters most, your work.
+                    </p>
+                </div>
 
+                <div class="information">
+                    <h2>Flexibility Redefined</h2>
+                    <br />
+                    <p>
+                        We understand that the modern work landscape is dynamic. That's why we offer flexible membership plans that cater to your unique requirements. Whether you need a dedicated workspace, a meeting room for a day, or a
+                        virtual office, we have the perfect solution for you.
+                    </p>
+                </div>
 
+                <div class="information">
+                    <h2>Join Us</h2>
+                    <br />
+                    <p>
+                        Embark on a journey of innovation and collaboration with COWORKING. Discover a workspace that transcends the conventional and propels you towards success. Join our community and experience the future of work, where
+                        every day is an opportunity to thrive.
+                    </p>
+                </div>
+            </div>
+        </main>
 
+        <!--        FOOTER          -->
 
+        <footer>
+            <div class="position-footer">
+                <div class="opening-times">
+                    <h2>Opening Hours</h2>
+                    <ul>
+                        <li>MONDAY 6:00-22:00</li>
+                        <li>TUESDAY 6:00-22:00</li>
+                        <li>WEDNESDAY 6:00-22:00</li>
+                        <li>THURSDAY 6:00-22:00</li>
+                        <li>FRIDAY 6:00-22:00</li>
+                        <li>SATURDAY 8:00-22:00</li>
+                        <li>SUNDAY 8:00-22:00</li>
+                    </ul>
+                </div>
+                <div class="address">
+                    <h2>Address</h2>
+                    <p>Nowhere Street 0</p>
+                    <p>Stockholm</p>
+                    <p>74591</p>
+                    <br />
+                    <p>Call us: 6531 234 234</p>
+                    <p>Email: coworking@coworking.com</p>
+                    <br />
+                    <p><a href="https://www.facebook.com/" target="_blank">Visit us on Facebook</a></p>
+                </div>
+            </div>
+        </footer>
 
-    <!--        FOOTER          -->
-
-    <footer>
-      <div class="position-footer">
-         <div class="opening-times">
-             <h2>Opening Hours</h2>
-             <ul>
-                 <li>MONDAY	6:00-22:00</li>
-                 <li>TUESDAY	6:00-22:00</li>
-                 <li>WEDNESDAY	6:00-22:00</li>
-                 <li>THURSDAY	6:00-22:00</li>
-                 <li>FRIDAY	6:00-22:00</li>
-                 <li>SATURDAY	8:00-22:00</li>
-                 <li>SUNDAY	8:00-22:00</li>
-             </ul>
-         </div>
-         <div class="address">
-             <h2>Address</h2>
-             <p>Nowhere Street 0</p>
-             <p>Stockholm</p>
-             <p>74591</p>
-             <br>
-             <p>Call us: 6531 234 234</p>
-            <p>Email: coworking@coworking.com</p>
-            <br>
-               <p><a href="https://www.facebook.com/" target="_blank">Visit us on Facebook</a></p>
-         </div>
-      </div>
-
-
-
- </footer>
-
-
-    <script>
-            function showSidebar(){
-                const sidebar = document.querySelector('.sidebar')
-                sidebar.style.display = 'flex'
-            }
- 
-            function hideSidebar(){
-                const sidebar = document.querySelector('.sidebar')
-                sidebar.style.display = 'none'
-            }
-
-            function showSidebar(event) {
-    const sidebar = document.querySelector('.sidebar');
-    sidebar.style.display = 'flex';
-    event.preventDefault();
-}
-
-
-         </script>
-    
-</body>
+        <script src="./assets/js/script.js"></script>
+    </body>
 </html>
