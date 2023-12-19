@@ -95,26 +95,34 @@ All my images on the site comes from [Pexels](https://www.pexels.com/search/webs
 
 ### Navigation bar
 
-The navigation bar is the same on all 3 pages with Home, About Us, Membership in a row. When you go under 800px it transform to a dropdown menu for the responsivnes on phones.
+The navigation bar is the same on all 3 pages with Home, About Us, Membership in a row. When you go under 800px it transform to a dropdown menu for the responsivnes on phones. I've added hover effect so it easy for the user to know where they are.
 
 ![nav bar over 800px](/assets/images/navbar%20fullscreen.png)
 ![nav bar under 800px](/assets/images/navbar%20dropdown%20menu.png)
 
 ## Landing Page
 
+When you arrive and the landing page you will have a background picture with a slogan and under it you get introduced to the benefits of coworking. The idea behind that is to make the customer excitied to continue the reading and explore the website.
+
 ![Landing Page](/assets/images/landing%20page.png)
 
 
 ## About Us
+
+About us page starts like the homepage with a picture and a text so the user know that this page is about the company. Under the picture u will have sections where we write about our self and benefits from coworking.
 
 ![About us](/assets/images/landing%20page%20about%20us.png)
 ![About Us](/assets/images/info%20at%20about%20us%20page.png)
 
 ## Membership
 
+The Membership page is what its called. U arrive at a nice background where you have a form to start a subscription. You can choose between 2 choices where one is just officespace and the other is with officespace and a computer.
+
 ![Membership Page](/assets/images/membership%20page.png)
 
 ## Footer
+
+The footer section includes contact adress for phone and mail, openingtimes and link to my socialmedia.
 
 ![Footer](/assets/images/footer.png)
 
