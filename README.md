@@ -32,6 +32,7 @@ I created the website for homeworkers and new startups where u can get together 
      * [CSS Validator Test](#css-validator)
      * [Lighthouse Mobile](#mobile-test)
      * [Lighthouse Desktop](#desktop-test)
+     * [Website functions](#website-functions)
 * [Libraries and Programs used](#libraries-and-programs-used)
 * [Deployment & Usage](#deployment--usage)
      * [Deployment](#deployment)
@@ -159,7 +160,7 @@ The footer section includes contact adress for phone and mail, openingtimes and 
 
 ![Lighthouse Desktop](/assets/images/desktop%20lighthouse.png)
 
-## Website functions
+### Website functions
 
 * The site works perfect in diffrent browers. Tested in Edge, Chrome, Safari.
 
