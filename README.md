@@ -159,6 +159,20 @@ The footer section includes contact adress for phone and mail, openingtimes and 
 
 ![Lighthouse Desktop](/assets/images/desktop%20lighthouse.png)
 
+## Website functions
+
+* The site works perfect in diffrent browers. Tested in Edge, Chrome, Safari.
+
+* I tested the responsivness on Iphone XR and Iphone 14 Pro Max without 
+problems, also its responsive in the diffrent phones in Devtools.
+
+* All the functions in navbar works fine on desktop and also the dropdown menu in smaller devices.
+
+* Social media links in footer opens a new window.
+
+* The form requires all the field to be input the right way and also you get redirected to formdump after submitting it.
+
+
 
 # Libraries and Programs used
 
