@@ -78,6 +78,8 @@ For communication ive focused on a simple website with light colours to give a c
 
 I choosed the color from [w3schools](https://www.w3schools.com/cssref/css_colors.php) I choose to keep the website with 1 color as background to keep it nice and clean.
 
+![colorpalette](/assets/images/color%20readme.png)
+
 ### Typography
 
 I picked my font from [Google Fonts](https://fonts.google.com/) I've used Roboto for my website because of the clean text and easy to read.
